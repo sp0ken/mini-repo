@@ -1,0 +1,15 @@
+$base-font-family: 'Gill Sans Std Light', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+  Roboto !default;
+$primary-color: #202447;
+$dark-color: #202447;
+$light-color: #fff;
+$light-grey: #f1f1f1;
+$secondary-color: #fab200;
+$grey-color: #7f7c89;
+$success-color: #00953a;
+$warning-color: #ff9c1c;
+$shadow-color: rgba($grey-color, 0.65);
+$field-color: #dedcdc;
+$cream-sofa-bed: #f9f0e7;
+
+@import '~spectre.css/src/variables';

@@ -1,0 +1,98 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Canter Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/Canter_Bold.woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Gill Sans Std Light';
+  font-style: normal;
+  font-weight: lighter;
+  src: url('/fonts/Gill_Sans_Std_Light.woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Gill Sans Std';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/Gill_Sans_Std_Regular.woff2');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'shannonasregular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/shannonas-regular.woff2') format('woff2');
+}
+
+$base-font-family: 'Gill Sans Std Light', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+.gill {
+  font-family: 'Gill Sans Std Light', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+.gill-regular {
+  font-family: 'Gill Sans Std', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+.canter {
+  font-family: 'Canter Bold', sans-serif !important;
+}
+
+.shannonas-font {
+  font-family: 'shannonasregular', sans-serif !important;
+}
+
+h1,
+.h1 {
+  font-family: 'Gill Sans Std', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-size: $unit-10;
+  font-weight: 300;
+  letter-spacing: 2.5px;
+  margin: $unit-10 0;
+}
+
+h2,
+.h2 {
+  font-family: 'Gill Sans Std Light', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-size: $unit-8;
+  letter-spacing: 2.5px;
+  margin: $unit-8 0;
+}
+
+h3,
+.h3 {
+  font-family: 'Gill Sans Std', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-size: $unit-7;
+  font-weight: 300;
+  margin: $unit-7 0;
+}
+
+h4,
+.h4 {
+  font-family: 'Gill Sans Std', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-size: $unit-6;
+  font-weight: 300;
+  margin: $unit-6 0;
+}
+
+h5,
+.h5 {
+  font-family: 'Gill Sans Std', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-size: $unit-5;
+  font-weight: 300;
+  margin: $unit-5 0;
+}
+
+h6,
+.h6 {
+  font-family: 'Gill Sans Std Light', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
+  font-size: $unit-4;
+  margin: $unit-4 0;
+}
+
+.text-underline {
+  text-decoration: underline;
+}

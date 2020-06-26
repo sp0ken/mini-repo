@@ -1,0 +1,67 @@
+// Product agile slider tweak
+.product-display {
+  & .flickity-page-dots {
+    bottom: 4vh;
+    position: absolute;
+  }
+}
+
+// Specific to review cards components. Sorry :/
+.reviews {
+  .flickity-prev-next-button {
+    &.next {
+      right: 0;
+    }
+    &.previous {
+      left: 0;
+    }
+  }
+}
+
+.flickity-enabled {
+  & .flickity-prev-next-button {
+    background: $primary-color;
+    height: 1.5rem;
+    line-height: 2.3;
+    width: 1.5rem;
+
+    & svg path {
+      fill: $light-color;
+    }
+
+    &:hover {
+      background: lighten($primary-color, 10%);
+    }
+  }
+
+  & .flickity-page-dots {
+    & .dot {
+      background: $light-color;
+      border: 1px solid $primary-color;
+      border-radius: 50%;
+      color: transparent;
+      height: $unit-3;
+      margin: 0 $unit-1;
+      padding: 0;
+      width: $unit-3;
+    }
+
+    & .dot.is-selected,
+    & .dot:hover {
+      background: $primary-color;
+      border-color: $light-color;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: $size-sm) and (orientation: portrait) {
+  .carousel {
+    display: block;
+
+    &::after {
+      content: 'flickity';
+      display: none;
+    }
+  }
+}

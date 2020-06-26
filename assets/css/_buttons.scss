@@ -1,0 +1,228 @@
+.input-group-btn {
+  &.btn-secondary {
+    &:focus,
+    &:hover {
+      background-color: $secondary-color;
+      color: $light-color;
+    }
+  }
+
+  &.btn-primary {
+    &:focus,
+    &:hover {
+      background-color: $primary-color;
+      color: $light-color;
+    }
+  }
+}
+
+.btn {
+  &:hover {
+    color: $light-color;
+  }
+
+  &.btn-light {
+    &:hover {
+      background-color: $primary-color;
+      color: $light-color;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    color: $light-color;
+    height: unset;
+    min-height: 1.8rem;
+    white-space: pre-line;
+
+    &:hover {
+      background-color: lighten($secondary-color, 25);
+      border-color: lighten($secondary-color, 25);
+    }
+
+    &.loading::after {
+      border: 0.1rem solid $light-color;
+      border-right-color: transparent;
+      border-top-color: transparent;
+    }
+  }
+
+  &.btn-lg {
+    height: unset;
+    min-height: 2rem;
+  }
+
+  &.btn-xl {
+    font-size: 1.2rem;
+    height: unset;
+    min-height: 2.5rem;
+    padding: 0.8rem 0.95rem;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+.has-error {
+  &:not(.no-after)::after {
+    color: $error-color;
+    content: '❗';
+    position: absolute;
+    right: 1rem;
+    top: 2.4rem;
+  }
+
+  & .form-input {
+    &:valid {
+      border-color: $error-color;
+      padding-right: 1.5rem;
+    }
+  }
+}
+
+.form-input,
+.form-select {
+  border-color: $grey-color;
+  height: 2rem;
+
+  &:valid {
+    border-color: $field-color;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.1rem transparentize($primary-color, 0.8);
+  }
+}
+
+.form-select {
+  &:not([multiple]):not([size]) {
+    background: $light-color
+      url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSI1IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEpIiBzdHJva2U9IiMyMDI0NDciIHN0cm9rZS13aWR0aD0iLjkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSI+PHBhdGggZD0iTS4xNS4yMjVsMi45NDcgNC40Mk01Ljk0Ny40NUwzIDQuODciLz48L2c+PC9zdmc+')
+      no-repeat right 0.35rem center / 0.4rem 0.5rem;
+    background-size: 0.6rem;
+  }
+}
+
+.form-group {
+  &.form-required {
+    position: relative;
+
+    &::before {
+      color: $error-color;
+      content: '*';
+      font-size: 1rem;
+      left: -0.2rem;
+      position: absolute;
+      top: 0;
+    }
+  }
+}
+
+.form-box {
+  position: relative;
+
+  & label {
+    &::before {
+      background: $light-color;
+      border: 1px solid $primary-color;
+      color: $primary-color;
+      content: ' ';
+      cursor: pointer;
+      display: inline-block;
+      height: 1rem;
+      left: 0;
+      margin-right: 0.2rem;
+      position: relative;
+      text-align: center;
+      top: 3%;
+      width: 1rem;
+    }
+
+    &.disabled::before {
+      border-color: $shadow-color;
+      cursor: not-allowed;
+    }
+  }
+
+  & input {
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+
+    &:checked + label:not(.disabled)::before,
+    &:not(:checked) + label:not(.disabled):hover::before {
+      content: '✓';
+    }
+
+    &:not(:checked) + label:hover::before {
+      color: transparentize($primary-color, 0.7);
+    }
+
+    &:focus + label::before {
+      box-shadow: 0 0 0 0.1rem rgba(32, 36, 71, 0.2);
+    }
+  }
+}
+
+.form-image {
+  & input {
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+
+    &:checked {
+      & ~ label {
+        color: $secondary-color;
+
+        &::before {
+          border-color: $secondary-color;
+        }
+      }
+    }
+
+    & ~ label {
+      align-items: center;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 4rem;
+
+      &::before {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 3.5rem;
+        border: 1px solid $shadow-color;
+        border-radius: 0.1rem;
+        content: ' ';
+        display: inline-block;
+        height: 4rem;
+        margin-bottom: 0.4rem;
+        width: 4rem;
+      }
+
+      &:hover {
+        color: $secondary-color;
+
+        &::before {
+          border-color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+.btn-bottom {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 16000003;
+}

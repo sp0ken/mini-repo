@@ -1,0 +1,46 @@
+body {
+  & .with-sidebar {
+    overflow: hidden;
+  }
+}
+
+#off-canvas {
+  & aside {
+    &.off-canvas-sidebar {
+      background: $light-color;
+      height: 100%;
+      left: -100%;
+      max-width: 100%;
+      position: fixed;
+      top: 2.4rem;
+      transition: left 0.3s ease;
+      width: 100%;
+      z-index: 26000000;
+    }
+  }
+
+  & .off-canvas-overlay {
+    display: none;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 0;
+  }
+
+  &.active {
+    max-height: 2.4rem;
+    position: fixed;
+    & aside {
+      &.off-canvas-sidebar {
+        left: 0;
+      }
+    }
+
+    & .off-canvas-overlay {
+      -webkit-overflow-scrolling: touch;
+      background: rgba(100, 100, 100, .6);
+      display: block;
+      z-index: 16000005;
+    }
+  }
+}

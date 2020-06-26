@@ -1,0 +1,37 @@
+{
+  "cms-title": "Menu",
+  "header": {
+    "banner": {
+      "lingot-mattress": "1 matelas Tediber acheté <br>1 oreiller offert",
+      "lingot-pack": "1 matelas Tediber acheté <br>+ 1 sommier<br><small>= 2 oreillers offerts<small>",
+      "new": "Incroyable",
+      "bed-head": "1 ensemble Matelas Tediber + sommier double acheté = notre nouvelle tête de lit offerte"
+    },
+    "placeholder": {
+      "search": "Recherche"
+    },
+    "link": {
+      "products": "Nos produits",
+      "categories": "Nos lits",
+      "reviews": "Avis",
+      "delivery": "Ma livraison dès le...?",
+      "mobile-rating": {
+        "mattress": "Consultez nos {reviewCount} avis matelas",
+        "kid-mattress": "Consultez nos {reviewCount} avis Grand Tedi by Tediber",
+        "bed-frame": "Consultez nos {reviewCount} avis sommier",
+        "sofa-bed-duo": "Consultez nos {reviewCount} avis canapé-lit",
+        "pillow": "Consultez nos {reviewCount} avis oreiller",
+        "blanket": "Consultez nos {reviewCount} avis couette",
+        "bed-linen": "Consultez nos {reviewCount} avis linge de lit",
+        "small-mattress": "Consultez nos {reviewCount} avis matelas bébé"
+      }
+    },
+    "alt": {
+      "logo-tediber": "Logo Tediber",
+      "logo-ours": "Mascotte Tediber",
+      "cart": "Panier",
+      "search": "Rechercher sur le site",
+      "stores": "Où acheter les produits Tediber"
+    }
+  }
+}

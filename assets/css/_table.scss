@@ -1,0 +1,8 @@
+.simple-table {
+  border-collapse: collapse;
+  & td,
+  & th {
+    border: 1px solid $grey-color;
+    padding: 0.5rem 0.75rem;
+  }
+}

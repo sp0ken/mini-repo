@@ -1,0 +1,145 @@
+.empty {
+  &.loading {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.slide-fade-enter-active, .slide-fade-right-enter-active, .fade-enter-active, .fadeRight-enter-active  {
+  transition: all .5s ease;
+}
+.slide-fade-leave-active, .slide-fade-right-leave-active, .fade-leave-active, .fadeRight-leave-active  {
+  transition: all .25s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+.slide-fade-right-enter, .slide-fade-right-leave-to {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+/* Keyframes from animate css */
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  animation-name: slideInUp;
+  animation-duration: 0.5s;
+}
+
+@keyframes slideOutDown {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+.slideOutDown {
+  animation-name: slideOutDown;
+  animation-duration: 0.5s;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  animation-name: zoomOut;
+  animation-duration: 0.5s;
+}
+
+@keyframes reduceCircle {
+  0% {
+    transform: scale(0.95)
+  }
+
+  25%{
+    transform: scale(1.1)
+  }
+
+  30%{
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+@keyframes pulseCircle {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+    transform: scale(1.05)
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(2)
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(2)
+  }
+}

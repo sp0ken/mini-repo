@@ -1,0 +1,37 @@
+# Redirects and headers are GLOBAL for all builds – they do not get scoped to
+# contexts no matter where you define them in the file.
+# For context-specific rules, use _headers or _redirects files, which are
+# PER-DEPLOY.
+
+[build.environment]
+  CI = "1"
+  NODE_VERSION = "13.10.1"
+  RUBY_VERSION = "2.6.2"
+  YARN_VERSION = "1.22.0"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+    Accept-CH = "DPR, Viewport-Width, Width"
+
+[[headers]]
+  for = "/_nuxt/scripts/*"
+  [headers.values]
+    Cache-Control = "private, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_nuxt/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_nuxt/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "https://www.tediber.fr/*"
+  to = "https://www.tediber.com/:splat"
+  status = 301
+  force = true

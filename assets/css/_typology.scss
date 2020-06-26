@@ -1,0 +1,10 @@
+.btn.btn-link {
+  &:hover,
+  &:focus {
+    color: $secondary-color;
+  }
+}
+
+.text-lightweight {
+  font-weight: 300;
+}

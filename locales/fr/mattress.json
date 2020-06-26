@@ -1,0 +1,260 @@
+{
+  "cms-title": "Page matelas",
+  "mattress": {
+    "bed-frame": {
+      "title": {
+        "bed-frame": "Le sommier Tediber",
+        "plank": "Sommier à planches ou plateforme",
+        "electric": "Sommier à lattes ou électrique",
+        "spring": "Sommier à ressort ou tapissier"
+      },
+      "text": {
+        "bed-frame": "Le compagnon idéal pour votre matelas Tediber, le seul sommier tapissier qui allie confort parfait et qualité hôtelière",
+        "other-beds": "Le matelas Tediber est aussi compatible avec d’autres types de sommiers, s’ils sont en bon état :"
+      },
+      "link": {
+        "bed-frame": "Découvrez le sommier Tediber"
+      },
+      "alt": {
+        "bed-frame": "sommier tediber",
+        "bed-frame-icon": "sommier tapissier",
+        "plank": "Planche",
+        "electric": "Electrique",
+        "spring": "Ressorts"
+      }
+    },
+    "perspirant": {
+      "title": {
+        "perspirant": "Le matelas sain, respirant et qui régule la temperature"
+      },
+      "blocs": {
+        "temperature": "<h4 class='h5'>Régulation de la température : ni trop chaud, ni trop froid</h4><p>En plus d'apporter un accueil moelleux et rebondi, le latex micro-perforé de votre matelas régule parfaitement la température. Vous n'aurez pas de sensation de chaleur.</p>",
+        "soft": "<h4 class='h5'>Housse hypoallergénique, respirante et très douce</h4><p>Notre housse blanche contient du tencel, tissu développé à partir de fibres naturelles d'eucalyptus, habituellement utilisé pour les matelas bébés pour ses propriétés hypoallergéniques et sa douceur incomparable. La partie inférieure de la housse, grise, est en tissu d'ameublement haut de gamme à maillage large pour garantir une respirabilité optimale à votre matelas.</p>"
+      },
+      "alt": {
+        "temperature": "Régulation de la température : ni trop chaud, ni trop froid",
+        "soft": "Housse hypoallergénique, respirante et très douce"
+      }
+    },
+    "product-display": {
+      "title": {
+        "incredible-mattress": "L’Incroyable Matelas",
+        "addons": "Compléter votre commande ?"
+      },
+      "text": {
+        "incredible-mattress": "<h2 class='d-inline text-reset text-bold'>L’incroyable matelas Tediber</h2> est le seul matelas ferme et accueillant à la fois, qui s'adapte à tous les dormeurs. Designé en France et fabriqué en Belgique, c’est un matelas de qualité haut de gamme, à prix accessible.",
+        "choice": "Meilleur Choix UFC. ⓘ",
+        "choice-details": "Le matelas Tediber a été testé lors d’un test comparatif paru en novembre 2019 dans les publications UFC Que Choisir et a reçu le qualificatif de Meilleur Choix.",
+        "eco-tax": "Dont Éco-part {tax} € TTC",
+        "three-times": "Payable en 3 fois sans frais (0%)",
+        "out-of-stock": "Produit en rupture temporaire",
+        "price-monthly": "soit <b>{monthlyPrice}€ / mois</b> avec financement en 12x"
+      },
+      "label": {
+        "mattress-return": "Reprise de mon ancien matelas. (+ {returnPrice} €)",
+        "mattress-protector": "Ajouter un protège matelas (+ {addonPrice} €)",
+        "bed-head": "Ajouter une tête de lit assortie (+ {addonPrice} €)"
+      },
+      "tooltip": {
+        "product-return-terms": "Reprise sans contact, merci de déposer\nle produit devant votre porte."
+      },
+      "button": {
+        "add-to-cart": "Ajouter au panier"
+      }
+    },
+    "meta": {
+      "video-duration": "PT0M59S",
+      "video-upload-date": "2016-09-05T08:00:00Z",
+      "robots": "noodp",
+      "video-description": "Comment déballer votre matelas Tediber ? Découvrez les étapes à suivre pour déballer votre matelas en un clin d'oeil !  Le seul matelas à la fois ferme et accueillant. Designé en France. Fabriqué en Belgique. Livraison gratuite et rapide. Essayez Tediber pendant 100 jours, gratuitement, et laissez-nous changer vos vies.",
+      "video-id": "P94dvjVF4QE",
+      "title": "Achat Matelas Tediber en Ligne - Livraison Express & Essai Gratuit | Matelas Tediber®",
+      "description": "Le Meilleur des matelas - 3 Technologies pour le meilleur confort: Mousse PU, mémoire de forme & latex - Ferme & Accueillant - 100 jours d'essai gratuits",
+      "video-name": "Tediber - Le déballage de l'incroyable matelas"
+    },
+    "brand": {
+      "title": {
+        "belgium": "Design à la française et qualité belge"
+      },
+      "alt": {
+        "belgium": "Video matelas français Tediber"
+      }
+    },
+    "upsell": {
+      "bed-frame": {
+        "title": "L’incroyable sommier Tediber",
+        "text": "Le compagnon idéal pour votre matelas Tediber, le seul sommier tapissier qui allie confort parfait et qualité hôtelière.<span class='small divider'></span>Aussi compatible avec d’autres types de sommiers, s’ils sont en bon état :",
+        "button": "Découvrir le sommier",
+        "alt": "sommier tapissier Tediber"
+      },
+      "bed-linen": {
+        "title": "L’incroyable linge de lit",
+        "text": "Découvrez notre incroyable gamme de linge de lit, 100% satin de coton de lavé, pour une sensation unique de douceur et de légèreté.",
+        "button": "Découvrir le linge de lit",
+        "alt": "parure de lit Tediber"
+      },
+      "protector": {
+        "title": "L’incroyable protège-matelas",
+        "text": "L’incroyable protège-matelas Tediber est le seul protège-matelas doux, imperméable et respirant à la fois.",
+        "button": "Découvrir l'alèse",
+        "alt": "alèse Tediber"
+      }
+    },
+    "social": {
+      "title": "Nos clients l'adorent",
+      "instagram-link": "https://instagram.com/tediber_fr",
+      "instagram": "@tediber_fr"
+    },
+    "build": {
+      "title": {
+        "build": "Le matelas pratique et responsable"
+      },
+      "blocs": {
+        "cleaning": "<h4 class='h5'>Entretien facile, pas besoin de soulever le matelas pour le déhousser !</h4><p>Retirez seulement la partie supérieure de la housse puis lavez-la en machine à 30° sur cycle délicat. Laissez sécher à l'air libre. Posez simplement la housse sur votre matelas pour zippez à nouveau, sans avoir à soulever votre matelas</p>",
+        "making": "<h4 class='h5'>Fabrication haut de gamme et responsable</h4><p>Designé en France et fabriqué en Belgique, berceau de la literie haut de gamme, le matelas Tediber est un matelas haut de gamme à prix accessible.</p>"
+      },
+      "alt": {
+        "cleaning": "Entretien facile, pas besoin de soulever le matelas pour le déhousser !",
+        "making": "Fabrication haut de gamme et responsable",
+        "responsible": "Emmaus x Tediber"
+      },
+      "bottom": {
+        "responsible": "<h4 class='h5'>Emmaus x Tediber</h4><p>Les matelas que nos clients décident de retourner sont offerts à Emmaus Defi, dont le dispositif Banque Solidaire de l’Equipement vient en aide aux personnes en situation de grande précarité qui s’installent dans un premier logement.</p>"
+      }
+    },
+    "bed-linen": {
+      "title": {
+        "bed-linen": "Le Linge de Lit Tediber"
+      },
+      "text": {
+        "bed-linen": "Découvrez notre incroyable gamme de linge de lit, 100% satin de coton de lavé, pour une sensation unique de douceur et de légèreté."
+      },
+      "link": {
+        "bed-linen": "Découvrez le linge de lit"
+      },
+      "alt": {
+        "bed-linen": "linge de lit",
+        "bed-linen-icon": "parure de lit"
+      }
+    },
+    "delivery": {
+      "title": {
+        "delivery": "Livraison et retour",
+        "express": "Le canapé-lit est en cours de fabrication, il sera expédié à partir du 26 novembre",
+        "product-delivery": "Mon matelas Tediber chez moi dès le…"
+      },
+      "summary": {
+        "express": "Livraison gratuite sur créneau",
+        "trial": "100 nuits d’essai et retour gratuit",
+        "roll": "Notre matelas est comprimé-roulé, mais pas plié !",
+        "return": "Reprise de votre matelas"
+      },
+      "detail": {
+        "express": "Notre livraison est incroyablement rapide et précise ! <br>En Île de France, votre matelas Tediber est livré sur le créneau court (de 1h30 à 2h30) que vous aurez choisi lors de la commande.<br>Il est livré chez vous, dans la pièce d’utilisation, sans limite d’étages. Vous pourrez même suivre votre livreur avec votre mobile ! Dans les autres régions de France, votre matelas Tediber est livré sur le créneau de 5h que vous aurez choisi lors de la commande. <br> Il est livré chez vous, dans la pièce d’utilisation, sans limite d’étages. Vous pourrez même suivre votre livreur avec votre mobile. Si vous choisissez un créneau d'une journée, le livreur ne montera pas votre sommier à l'étage. Simplifiez-vous la vie, confiez-nous la reprise de votre ancien matelas Tediber !",
+        "trial": "Et si vous testiez simplement l’incroyable matelas Tediber pendant 100 nuits ? S’il ne vous plaît pas : contactez-nous ! Nous le récupérons chez vous, gratuitement et vous remboursons en 48h.",
+        "roll": "Notre matelas est comprimé-roulé, mais pas plié ! En effet, le latex et la mémoire de forme pourraient être abîmés par un pliage.",
+        "return": "Pour seulement 30€, nous reprenons votre ancien matelas lors de la livraison du nouveau."
+      }
+    },
+    "story": {
+      "text": {
+        "excerpt": "Nous avons créé le matelas Tediber parce que nous voulions rendre accessible à tous, facilement et simplement, un incroyable matelas. ",
+        "body": "Un matelas qui, grâce à sa combinaison unique de trois mousses (latex micro-perforé, <a href=\"/matelas/conseils/matelas-mousse/memoire-de-forme\" class='text-light'> mousse à mémoire de forme </a> et mousse polyuréthane Tediber© haute densité), s’adapte à tous les dormeurs. Il est designé en France, fabriqué en Belgique, berceau de la literie haut de gamme, pour garantir une qualité irréprochable et un matelas durable.<br><br>Le matelas Tediber est ferme et accueillant à la fois. Il vous apporte le soutien dont vous avez besoin, répartit les points de pression de façon idéale, tout en vous procurant un accueil moelleux et rebondi. <br><br>Ainsi, le matelas Tediber s’adapte à toute les morphologies. Il convient également parfaitement à ceux qui dorment à deux : grâce à la mémoire de forme, qui absorbe les mouvements, l’indépendance de couchage est parfaite, vous ne sentirez pas votre partenaire bouger pendant la nuit.<br><br>Choisir l’incroyable matelas Tediber c’est se faciliter la vie avec un matelas haut de gamme, à prix très accessible. L’achat est sans risque : vous avez 100 nuits pour l’essayer et nous venons le reprendre chez vous, gratuitement, s’il ne vous convient pas."
+      },
+      "alt": {
+        "story": "L’incroyable histoire"
+      }
+    },
+    "reviews": {
+      "title": {
+        "reviews": "Avis clients"
+      },
+      "link": {
+        "all": "Voir tous les avis"
+      }
+    },
+    "video": {
+      "title": {
+        "unpack-mattress": "Découvrez comment déballer votre matelas"
+      },
+      "alt": {
+        "unpack-mattress": "Miniature vidéo déballage matelas Tediber"
+      }
+    },
+    "teddybear": {
+      "title": "De l’ours teddy bear au matelas Tediber",
+      "text": "<b class='gill-regular'>Que nous ayons choisi d’appeler notre incroyable matelas Tediber vous étonne ? Ou vous évoque des souvenirs d’enfance ? Vous vous demandez ce qui nous est passé par la tête ? Le nom de notre matelas n’est pourtant pas dû au hasard et nous allons vous expliquer pourquoi nous l’avons choisi.</b><br><br>Le nom Tediber vient, comme vous vous en doutez, du nounours Teddy Bear. En effet l’ours Teddy bear rappelle le meilleur de l’enfance et de son imaginaire. Pour nous, c’est le moyen de vous faire ressentir le fait que notre incroyable matelas est réconfortant, doux, moelleux, rassurant, incroyablement confortable. Il est à l’épreuve du temps, c’est celui sur lequel vous pourrez toujours compter. <br><br>Par ailleurs, dans le mot Teddy bear il y a bear, ours en anglais. L’ours, comme notre matelas Tediber, est robuste, fort, puissant. Il évoque la qualité et la durabilité de notre incroyable matelas. <b class='gill-regular'>Le matelas Tediber c’est l’alliance de la douceur et de la fermeté</b>, qui est d’ailleurs le secret du confort de notre matelas : ferme et accueillant à la fois.<br><br>Vous connaissez maintenant les raisons qui nous ont poussées à choisir un nom aussi évocateur que Tediber, inspiré du Teddy bear. Nous espérons que vous allonger sur l’incroyable matelas Tediber vous permettra de les comprendre encore mieux !"
+    },
+    "description": {
+      "title": {
+        "incredible-mattress": "Pourquoi le matelas tediber est-il incroyable ?",
+        "firm": "Le seul matelas ferme et accueillant à la fois"
+      },
+      "text": {
+        "independant": "<h4 class='h5'>Indépendance de couchage incomparable</h4><p class='mb-0'>Le latex et la mousse à mémoire de forme de votre matelas tediber absorbent les mouvements : vous ne sentirez plus votre partenaire bouger pendant la nuit. Finis les réveils nocturnes !</p>",
+        "pressure": "<h4 class='h5'>Répartitions idéales des points de pression</h4><p class='mb-0'>La mousse à mémoire de forme du matelas Tediber répartit les points de pression, comme les hanches ou les épaules, de façon optimale. Votre colonne vertébrale reste alignée, vous évitant ainsi les douleurs au réveil.</p>",
+        "firm": "<h4 class='h5'>Soutien et fermeté</h4><p class='mb-0'>La mousse polyuréthane Tediber haute densité (40kg/m3) à cellules ouvertes apporte un soutien et un maintien parfait à toutes les morphologies. Sa fermeté est idéale. Sa densité est la garantie de la durabilité du matelas</p>"
+      },
+      "alt": {
+        "independant": " ",
+        "pressure": " ",
+        "firm": " "
+      }
+    },
+    "difference": {
+      "title": {
+        "difference": "Notre différence",
+        "quality": "Qualité<br>incroyable",
+        "delivery": "Livraison<br>incroyable",
+        "experience": "Expérience<br>incroyable",
+        "reviews": "Avis<br>incroyables"
+      },
+      "text": {
+        "quality": "Ferme et accueillant à la fois<br>Designé en France, fabriqué en Belgique<br>10 ans de garantie.",
+        "delivery": "Livraison gratuite en 24h à 48h, sur le créneau court de votre choix",
+        "experience": "100 nuits d’essai.<br>Retour simple et gratuit. <br>Remboursement intégral et rapide.",
+        "reviews": "Plus de {reviewCount} avis de clients heureux"
+      },
+      "alt": {
+        "quality": "Qualité incroyable",
+        "delivery": "Livraison incroyable",
+        "experience": "Expérience incroyable",
+        "reviews": "Avis incroyables"
+      }
+    },
+    "sheet": {
+      "title": {
+        "sheet": "Fiche technique"
+      },
+      "summary": {
+        "size": "Dimensions et poids",
+        "manufacture": "Fabrication Belge",
+        "bed-frame": "Pour quels sommiers ?",
+        "guarantee": "10 ans de garantie pleine",
+        "materials": "Composition",
+        "product-return": "Reprise de votre ancienne literie",
+        "care": "Entretien",
+        "environment": "Matelas responsable et certifications",
+        "delivery": "Expédition - Livraison express et gratuite",
+        "trial": "100 nuits d'essai et retour gratuit",
+        "recommanded": "Tediber Matelas Meilleur Choix UFC Que Choisir 2019",
+        "guide": "L'incroyable guide du matelas"
+      },
+      "detail": {
+        "size": "L’incroyable matelas fait 25 cm <a href='https://www.tediber.com/matelas/conseils/epaisseur-matelas' class='text-secondary'> d’épaisseur </a>, quelle que soit sa taille.<br><br>Tailles les plus courantes :<table class='table'><tbody><tr><td class='column col-4'><a href='https://www.tediber.com/matelas-80x200' class='text-secondary'> matelas 80x200 cm </a></td><td>17 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-90x190' class='text-secondary'> matelas 90x190 cm </a></td><td>18,5 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-90x200' class='text-secondary'> matelas 90x200 cm </a></td><td>19,5 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-140x190' class='text-secondary'> matelas 140x190 cm </a></td><td>28,5 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-140x200' class='text-secondary'> matelas 140x200 cm </a></td><td>30 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-160x200' class='text-secondary'> matelas 160x200 cm </a></td><td>35 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-180x200' class='text-secondary'> matelas 180x200 cm </a></td><td>38,5 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-200x200' class='text-secondary'> matelas 200x200 cm </a></td><td>43 kg</td></tr></tbody></table><br>Autres tailles :<table class='table'><tbody><tr><td class='column col-4'><a href='https://www.tediber.com/matelas-70x190' class='text-secondary'> matelas 70x190 cm </a></td><td>14 kg</td></tr><tr><td>matelas 80x190 cm</td><td>16 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-120x190' class='text-secondary'> matelas 120x190 cm </a></td><td>24 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-120x200' class='text-secondary'> matelas 120x200 cm </a></td><td>27 kg</td></tr><tr><td>matelas 135x190 cm</td><td>27,5 kg</td></tr><tr><td>matelas 150x190 cm</td><td>30,5 kg</td></tr><tr><td><a href='https://www.tediber.com/matelas-160x190' class='text-secondary'> matelas 160x190 cm </a></td><td>33 kg</td></tr></tbody></table>Voici quelques indications pour choisir la dimension de votre literie, et plus particulièrement choisir un matelas, que vous ayez besoin d’un matelas pour une ou deux personnes :<br>Un matelas 90x190 cm est un <a href='https://www.tediber.com/matelas-90x190' class='text-secondary'> matelas 1 personne </a> standard. Pour un dormeur grand, préférez un matelas 90x200 cm, plus long.<br><br>Un matelas 140x190 cm est un <a href='https://www.tediber.com/matelas-160x200' class='text-secondary'> matelas 2 personnes </a> standard, particulièrement adapté aux petites surfaces.<br><br>Un matelas 160x200 cm est un matelas 2 personnes qui offrira un confort optimal, en laissant de la liberté de mouvement à chacun des dormeurs.<br><br>Un matelas 200x200 cm est un matelas 2 personnes à privilégier si vous n’avez pas de problèmes de places et que vous aimez avoir de l’espace !",
+        "manufacture": "L’incroyable matelas Tediber est fabriqué en Belgique, tout près de la frontière française, à quelques kilomètres de Lille. Pourquoi pas en France ? Tout simplement parce que nous n’avons pas trouvé en France le partenaire qui répondait à nos exigences de qualité. Si nous avons choisi la Belgique, c’est parce qu’elle est le berceau de la literie haut de gamme. En effet, la Belgique est au matelas ce que la Suisse est à l’horlogerie : l’expert !",
+        "bed-frame": "Du fait de son épaisseur et de son maintien ferme, le matelas Tediber s’adapte à tout type de sommiers : fixe, à lattes, à ressorts, planche, tapissier, électrique (avec une inclinaison à 45° maximum). <br>Pensez simplement à vérifer l’état de votre sommier et à le changer tous les 10 ans environ, surtout dans le cas d’un sommier à lattes souples (autrement appelé à lattes actives), qui s’use plus rapidement et peut provoquer une déformation du matelas. <br>De manière générale, plus la surface de couchage est dure, <strong>plus le maintien offert par le matelas Tediber s’approche de la perfection</strong>.<br><br><strong>C’est pour cela que nous avons développé <a href='/sommier' class='text-secondary'>l’incroyable sommier Tediber</a> - sommier tapisssier à lattes fixes - le seul sommier qui allie confort parfait et qualité hôtelière.</strong> Ses lattes fixes en bois massif scandinave certifiés FSC apportent un maintien idéal et robuste à votre matelas Tediber, tout en lui procurant une aération optimale.",
+        "guarantee": "Le matelas bénéficie de 10 ans de garantie pleine, c’est à dire non dégressive : même après plusieurs années, la garantie couvre l’intégralité et pas seulement la moitié de la valeur du matelas. Le matelas est garantie contre tous les défauts (mousses et matelas), incluant la déformation anormale du matelas.<br>Pour en savoir plus, n’hésitez pas à consulter les conditions d’application de la garantie <a href='/garantie/matelas' class='text-secondary'>ici</a>.<br>Dans le cas d’une utilisation de la garantie, après constatation du défaut, un matelas neuf vous sera livré.",
+        "materials": "La mousse polyuréthane Tediber® et la mousse à mémoire de forme ont des indices de fermeté élevés qui créent la <strong>sensation unique <em>Ferme et Accueillant®</em></strong> du matelas Tediber.<br><br>L’intérieur de l’incroyable matelas Tediber se compose de 3 matériaux :<br><br><strong>Au dessus, une couche de 2,5 cm d’épaisseur de latex micro perforé, d’une densité de 65kg/m3.</strong> Le latex micro perforé procure un accueil moelleux et rebondi : c’est le côté accueillant de l’appellation “ferme et accueillant” du matelas Tediber. La micro perforation du latex permet d’évacuer la chaleur et offre ainsi une régulation thermique optimale tout au long de la nuit. <br>Par ailleurs, notre latex, est composé à 20% de sève naturelle d’hévéa. Il est aussi anti-acariens et antibactériens et n’est pas bruyant lors de vos mouvements.<br><br>Au milieu, <strong>une couche de 3,5 cm de mousse à mémoire de forme</strong> (aussi appelée mousse viscoélastique), <strong>d’une densité idéale de 50 kg/m³</strong>. La mousse à mémoire de forme permet d’une part une excellente répartition des points de pression sur les parties du corps qui y sont vulnérables : hanches, épaules, dos, etc. Elle procure ainsi cette sensation unique d’être allongé sur un nuage. D’autre part, elle offre une excellente indépendance de couchage : quand l’un bouge ou se tourne, l’autre ne ressentira pas ses mouvements. L’épaisseur optimale de notre mousse à mémoire de forme évite la sensation d’enfoncement et vous laisse libre de vos mouvements.<br><br>En dessous, une couche de 19 cm de <strong>mousse Tediber® polyuréthane, d’une densité de 40 kg/m³</strong>. <br>La mousse polyuréthane Tediber® apporte un soutien ferme et progressif de la colonne vertébrale, quel que soit le poids du dormeur. Elle permet de ne pas s’enfoncer tout en relâchant la pression des hanches et des épaules. Sa densité est la garantie de la durabilité du matelas.<br><br>La housse (autrement appelée le coutil) de l’incroyable matelas Tediber se compose de la façon suivante :<br><br><strong>Le tissu blanc, en surface, est un strech à base de Tencel®, matériau fabriqué à partir de fibres d’eucalyptus</strong>. Ce tissu, habituellement réservé aux matelas pour bébé, est doux, souple, résistant, respirant et hypoallergénique.  Il permet aussi une régulation idéale de la température et limite la transpiration.<br><br><strong>La fermeture éclair jaune</strong> permet de déhousser facilement le matelas et même d’enlever uniquement la partie supérieure de la housse pour la laver : pas besoin de soulever le matelas !<br><br><strong>Le tissu gris</strong> est un tissu d’ameublement haut de gamme qui permet une excellente aération du matelas, tout en étant doux et agréable au toucher.<br><br>Sous le matelas se trouve une <strong>surface antidérapante</strong>. Mettez votre matelas Tediber sur n’importe quelle surface plane, il ne bougera pas.<br><br><span class='text-underline'>Bon à savoir</span><br>La composition unique du matelas Tediber en fait un matelas qui <strong>s’adapte à tous les dormeurs, toutes les morphologies et toutes les positions</strong>.<br><br>Avec le matelas Tediber, vous n’aurez <strong>pas besoin de surmatelas</strong> : le latex micro perforé joue déjà ce rôle d’accueil moelleux, frais et rebondi.<br><br>Et si vous vous demandez pourquoi nous n’utilisons <strong>pas de ressorts</strong>, c’est tout simplement parce que nos mousses sont de grande qualité. Par ailleurs, un matelas à ressorts de qualité ne peut pas être comprimé-roulé.",
+        "product-return": "<a href=\"/matelas/conseils/quand-changer-de-matelas\" class=\"text-secondary\"> Vous changez de matelas ? </a>Simplifiez-vous la vie, confiez-nous la reprise de votre ancien matelas ! Pour seulement 30€, nous reprenons votre ancien matelas lors de la livraison de votre matelas Tediber. <br>Plus d’info <a href='/reprise-ancienne-literie' class='text-secondary'>ici</a>",
+        "care": "Le matelas est entièrement déhoussable. La housse blanche est lavable en machine à 30°C sur cycle délicat avec une lessive douce. Elle sèche à l’air libre, sans chaleur directe, pour conserver sa douceur. Nous vous recommandons de laver votre housse 1 à 2 fois par an, aux changements de saisons par exemple. <br><br>Pour assurer à votre matelas l’aération dont il a besoin, il est important d’utiliser un sommier.<br><br>Le matelas Tediber n’a pas de face été ou hiver, vous n’aurez pas besoin de le retourner.",
+        "environment": "Pour Tediber, le respect de l’environnement, des gens et du monde dans lequel nous vivons, est une priorité. C’est pourquoi, d’une part, notre matelas est conçu avec des composants non-nocifs et à faible impact sur l’environnement :<ul><li>Les trois mousses utilisées, ainsi que le Tencel de la housse (à base de fibres d’eucalyptus), ont des propriétés antibactériennes et anti-acariens.</li><li>Notre matelas ne contient pas de retardateurs de flammes : ces-derniers contiennent des substances nocives, comme des perturbateurs endocriniens. De plus, il n'existe aucune preuve de l'efficacité des retardateurs de flamme (Source ANSES).</li><li>Notre latex est à 20% d’origine naturelle.</li><li>Nous utilisons une colle à base d’eau, sans COV.</li><li>Nous avons fait le choix fort de produire en grande partie à la main, en Belgique.</li><li>Nous livrons à vélo dans Paris intramuros.</li></ul>D’autre part, nous souhaitons avoir un impact social positif. Nous offrons les matelas qui nous sont retournés en bon état à Emmaüs Défi dont le dispositif Banque Solidaire de l’Equipement favorise la réinsertion de personnes en situation de précarité, notamment en les aidant à s’installer dans un premier logement.",
+        "delivery": "La livraison est toujours gratuite et à l'étage, dans la pièce de votre choix.<br>Si vous commandez un sommier ou un autre produit Tediber avec votre matelas, vous serez livré en même temps !<br><br>Lors de votre commande, un calendrier vous permet de choisir le meilleur créneau pour la livraison. Nous expédions de manière à respecter ce créneau.<br><strong>En Île-de-France</strong>, la livraison se fait sur créneau court :<br><ul><li>de 1h30 pour les départements 75, 92, 93 et 94 entre 9h00 et 22h30 du lundi au vendredi et de 10h à 18h le samedi,</li><li>de 2h30 pour les département 77, 78, 91 et 95 entre 9h00 et 21h30 du lundi au vendredi et jusqu’à 19h le samedi.</li></ul>Une commande passée avant 11h30 pourra être livrée le jour même.<br><br><strong>Dans le reste de la France</strong>, la commande sera expédiée maximum 12h après la commande pour une livraison en 24h à 48h. Le créneau de livraison pourra être choisi entre 7h et 12h ; 12h et 17h ou bien 17h et 22h, selon votre zone de livraison. Ce créneau sera affiné à une durée de 2h, la veille de la livraison. Vous serez averti par SMS directement par notre transporteur.<br><br><strong>En Europe</strong>, nous livrons en 48H à 72h.<br><br>Pour connaître la première date de livraison possible, cliquez en haut de la page sur “Ma Livraison dès le…”<br><br>Nous ne récupérons pas les anciens matelas. Les encombrants de votre ville les récupéreront sans problème !<br><br>La livraison Tediber est toujours gratuite, partout dans nos zones de livraison, avec le meilleur service.",
+        "trial": "Nous offrons une période d’essai de 100 nuits, qui commence le jour de la livraison de votre matelas. Si malheureusement votre matelas Tediber ne vous plaît pas, nous enverrons un coursier récupérer le matelas gratuitement, chez vous et sans conditions. Vous serez intégralement remboursé, dans les 48h qui suivent la réception du matelas par nos soins. Pas besoin d’avoir gardé le carton.<br>Essayez le matelas Tediber chez vous, sans risque !<br>Les matelas que nous récupérons sont reconditionnés et offerts à Emmaüs Défi dont Tediber est partenaire.",
+        "recommanded": "Le matelas Tediber est élu Meilleur choix par UFC Que Choisir 2019 !<br>Dans le Top 5 du classement, il est le 1er matelas ferme du classement. Tediber est la première marque française de ce top.<br> <br>Ce test porte sur 48 matelas vendus sur le marché français. Il concerne des matelas vendus sur Internet ou en magasin et de plusieurs compositions différentes : mousse, ressorts, latex ou encore mousse à mémoire de forme.",
+        "cocoon": "<a href='/matelas/conseils'>Découvrez également le Guide du Matelas 〉</a>",
+        "guide": "Vous vous posez des questions sur les critères à prendre en compte pour <a href='/matelas/conseils' class='text-secondary'>bien choisir un matelas</a> ? Quelle technologie, <a href='/matelas/conseils/matelas-taille' class='text-secondary'> quelle taille pour son matelas </a>, quelle fermeté pour obtenir le meilleur confort ?<br>Retrouvez toutes nos conseils dans cet incroyable guide !"
+      }
+    }
+  }
+}

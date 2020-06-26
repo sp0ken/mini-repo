@@ -1,0 +1,17 @@
+fieldset {
+  & legend {
+    & .btn-edit {
+      position: relative;
+    }
+  }
+
+  & .form-label {
+    font-size: 1rem;
+  }
+
+  & dl {
+    & dd {
+      margin: 0;
+    }
+  }
+}

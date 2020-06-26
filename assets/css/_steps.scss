@@ -1,0 +1,58 @@
+.step {
+  & .step-item:not(.funnel-step) {
+    min-height: 1rem;
+
+    &::before {
+      background: $primary-color;
+      border-width: 0.05rem;
+      top: 15px;
+    }
+
+    &:not(:first-child)::before {
+      top: 14px;
+    }
+
+    & a {
+      color: $primary-color;
+      padding: 35px 10px 0;
+      text-decoration: none;
+      text-transform: lowercase;
+
+      &::before {
+        background-color: $primary-color;
+        color: $light-color;
+        content: attr(data-step);
+        font-family: 'Canter Bold';
+        height: 2rem;
+        line-height: 2rem;
+        top: -0.2rem;
+        width: 2rem;
+      }
+    }
+
+    &.active {
+      & a::before {
+        background-color: $light-color;
+        color: $primary-color;
+      }
+
+      &::before {
+        background: $primary-color;
+      }
+
+      & ~ .step-item {
+        &::before {
+          background: $gray-color;
+        }
+
+        & a {
+          &::before {
+            background: $light-color;
+            border-color: $gray-color;
+            color: $gray-color;
+          }
+        }
+      }
+    }
+  }
+}

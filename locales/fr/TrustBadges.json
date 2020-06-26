@@ -1,0 +1,55 @@
+{
+  "cms-title": "Bloc badges",
+  "trust-badge": {
+    "trial": {
+      "caption": {
+        "short-trial": "<span class='text-secondary'>30 jours</span> pour changer d'avis",
+        "trial": "<span class='text-secondary'>100 nuits</span> d’essai <br> <span class='text-secondary'>{years} ans</span> de garantie"
+      },
+      "alt": {
+        "trial": "100 nuits d’essai"
+      }
+    },
+    "delivery": {
+      "caption": {
+        "delivery": "Livraison <span class='text-secondary'>express</span><br> retours <span class='text-secondary'>gratuits</span>",
+        "delivery-paid-return": "Livraison <span class='text-secondary'>express</span>"
+      },
+      "alt": {
+        "delivery": "Livraison express & retours gratuits"
+      }
+    },
+    "reviews": {
+      "caption": {
+        "reviews": "Plus de <span class='text-secondary'>{reviewCount}</span> <br> avis vérifiés"
+      },
+      "alt": {
+        "reviews": "Avis vérifiés"
+      }
+    },
+    "price": {
+      "caption": {
+        "price": "Paiement en <br> <span class='text-secondary'>3x sans frais</span><br><small>à partir de 100€</small>"
+      },
+      "alt": {
+        "price": "Paiement en 3x sans frais"
+      }
+    },
+    "credit": {
+      "caption": {
+        "credit": "Financement en&nbsp;<span class='text-secondary'>12x</span><br><small>à partir de 300€</small>"
+      },
+      "alt": {
+        "credit": "Financement en 12 fois"
+      }
+    },
+    "popover": {
+      "title": {
+        "credit": "Paiement en 12x avec financement via Younited Credit"
+      },
+      "text": {
+        "credit": "<ul><li>Financement en 12 fois avec intérêts</li><li>En partenariat avec Younited Credit</li><li>Réponse immédiate à votre demande</li><li>Commande minimale : 300€</li><li>Un crédit vous engage et doit être remboursé. </li><li>Vérifiez vos capacités de remboursement avant de vous engager</li></ul>"
+      }
+    }
+  }
+}

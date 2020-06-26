@@ -1,0 +1,21 @@
+.chip {
+  background: none;
+  border: 0.04rem solid $grey-color;
+  border-radius: 0.2rem;
+  height: 2rem;
+  line-height: 1.6rem;
+
+  & .btn {
+    color: $grey-color;
+    font-weight: 300;
+    height: 1.6rem;
+    line-height: 1.7rem;
+    margin-left: 0;
+    margin-right: 0.4rem;
+    transform: scale(1.75);
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

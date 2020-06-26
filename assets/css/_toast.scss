@@ -1,0 +1,13 @@
+.toast {
+  &.toast-warning {
+    background: lighten($warning-color, 25%);
+    border-color: lighten($warning-color, 25%);
+    color: darken($warning-color, 35%);
+  }
+
+  &.toast-error {
+    background: lighten($error-color, 25%);
+    border-color: lighten($error-color, 25%);
+    color: darken($error-color, 25%);
+  }
+}

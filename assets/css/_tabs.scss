@@ -1,0 +1,79 @@
+.tab {
+  align-items: flex-end;
+  border: 0;
+  justify-content: center;
+
+  & .tab-item {
+    border: 1px solid $grey-color;
+    border-bottom: 0;
+    border-right: 0;
+    height: 3.5rem;
+    transition: height, border 0.25s ease-out;
+    width: 6.5rem;
+
+    &:last-child {
+      border-right: 1px solid $grey-color;
+    }
+
+    & a {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
+      width: 100%;
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    & img {
+      height: 2.5rem;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+    }
+
+    &.active {
+      border-color: $secondary-color;
+      border-right: 1px solid $secondary-color;
+      border-width: 2px;
+      height: 6.5rem;
+
+      & + .tab-item {
+        border-left: 0;
+      }
+
+      & a {
+        border: 0;
+      }
+    }
+  }
+}
+
+.tab-menu {
+  font-size: 1rem;
+
+  & .nav {
+    & .nav-item {
+      & a {
+        color: $light-color;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+
+      &.active {
+        & a {
+          color: $light-color;
+
+          &:hover {
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+}
