@@ -1,12 +1,6 @@
-import { AXIOS, I18N, ROUTES, SITEMAP, WAIT } from './config'
+import { AXIOS, I18N, ROUTES, WAIT } from './config'
 
 export default {
-  env: {
-    baseUrl: process.env.BASE_URL,
-    syliusBaseUrl: process.env.SYLIUS_BASE_URL,
-    branch: process.env.BRANCH
-  },
-
   /**
    * Nuxt telemetry config
    */
@@ -43,8 +37,7 @@ export default {
   modules: [
     ['@nuxtjs/axios', AXIOS],
     ['nuxt-i18n', I18N],
-    ['vue-wait/nuxt', WAIT],
-    ['@nuxtjs/sitemap', SITEMAP]
+    ['vue-wait/nuxt', WAIT]
   ],
   buildModules: [['@nuxtjs/style-resources'], ['@nuxt/components']],
 

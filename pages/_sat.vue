@@ -1,8 +1,8 @@
 <template>
   <main>
     <component
-      v-if="variantCode"
       :is="satComponent"
+      v-if="variantCode"
       :variant-sat="variantCode"
       :pack-code="pack.code"
     ></component>
