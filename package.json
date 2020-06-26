@@ -5,18 +5,12 @@
   "author": "Jeff Coquery <jeff@tediber.com>",
   "private": true,
   "scripts": {
-    "dev": "SYLIUS_BASE_URL=https://demo-dot-model-magnet-209308.appspot.com nuxt dev -o",
-    "dev-prod": "SYLIUS_BASE_URL=https://back.tediber.com nuxt dev -o",
+    "dev": "SYLIUS_BASE_URL=https://back.tediber.com nuxt dev -o",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt build --devtools && nuxt export --fail-on-error && nuxt serve",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
-    "rebuild-sass": "npm rebuild node-sass",
-    "precommit": "yarn run lint"
+    "generate": "nuxt build --devtools && nuxt export --fail-on-error && nuxt serve"
   },
   "dependencies": {
-    "@arnellebalane/vue-intersect": "^2.0.0",
     "@nuxt/components": "^1.0.0",
     "@nuxtjs/axios": "^5.0.0",
     "cloudinary-vue": "^1.0.0",
@@ -30,7 +24,6 @@
     "vue-flickity": "^1.1.2",
     "vue-headroom": "^0.10.1",
     "vue-lazyload": "^1.2.6",
-    "vue-timeago": "^3.4.4",
     "vue-wait": "^1.3.1",
     "vuex-persistedstate": "^3.0.0"
   },
