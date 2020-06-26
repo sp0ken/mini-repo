@@ -262,7 +262,7 @@
     rightSheets: ['size', 'bed-frame', 'environment', 'recommanded', 'product-return', 'trial'],
     differences: ['delivery', 'experience', 'reviews'],
 
-    mixins: [productsMixin, reviewsMixin, networkMixin, younitedMixin],
+    mixins: [productsMixin, reviewsMixin, younitedMixin],
 
     i18n: {
       messages: {

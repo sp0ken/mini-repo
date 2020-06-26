@@ -275,7 +275,7 @@
     rightSheets: ['size', 'bed-frame', 'environment', 'recommanded', 'product-return', 'trial'],
     differences: ['delivery', 'experience', 'reviews'],
 
-    mixins: [younitedMixin, productsMixin, reviewsMixin, networkMixin],
+    mixins: [younitedMixin, productsMixin, reviewsMixin],
 
     props: {
       variantSat: {

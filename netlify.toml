@@ -29,9 +29,3 @@
   for = "/_nuxt/css/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
-
-[[redirects]]
-  from = "https://www.tediber.fr/*"
-  to = "https://www.tediber.com/:splat"
-  status = 301
-  force = true
