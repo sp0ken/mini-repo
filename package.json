@@ -8,7 +8,8 @@
     "dev": "SYLIUS_BASE_URL=https://back.tediber.com nuxt dev -o",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt build --devtools && nuxt export --fail-on-error && nuxt serve"
+    "debug-generate": "nuxt build --devtools && nuxt export --fail-on-error && nuxt serve",
+    "generate": "nuxt build --devtools && nuxt export --fail-on-error"
   },
   "dependencies": {
     "@nuxt/components": "^1.0.0",
