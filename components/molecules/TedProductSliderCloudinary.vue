@@ -40,12 +40,6 @@
 
 <script>
   export default {
-    i18n: {
-      messages: {
-        fr: require('~/locales/fr/ProductDisplay.json')
-      }
-    },
-
     flickityOptions: {
       selectedAttraction: 0.2,
       friction: 0.8,

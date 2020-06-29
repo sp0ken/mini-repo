@@ -14,7 +14,7 @@ export default {
     meta: [
       { charset: 'utf-8', once: true },
       { name: 'viewport', content: 'width=device-width, initial-scale=1', once: true },
-      { hid: 'description', name: 'description', content: 'Tediber', once: true }
+      { hid: 'description', name: 'description', content: 'Mini-repo', once: true }
     ],
     link: [
       { rel: 'icon', href: '/favicon-32.png', sizes: '32x32', once: true },

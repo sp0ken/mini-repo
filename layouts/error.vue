@@ -48,12 +48,6 @@
       }
     },
 
-    i18n: {
-      messages: {
-        fr: require('~/locales/fr/error.json')
-      }
-    },
-
     head() {
       return {
         title: this.$t('error.meta.title'),

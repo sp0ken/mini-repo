@@ -21,12 +21,6 @@
 
 <script>
   export default {
-    i18n: {
-      messages: {
-        fr: require('~/locales/fr/ProductDisplay.json')
-      }
-    },
-
     props: {
       productSlug: {
         type: String,
@@ -45,7 +39,7 @@
     },
 
     methods: {
-      setSlide: function(slide) {
+      setSlide: function (slide) {
         this.$nuxt.$emit('CHANGE_SLIDE', slide)
       }
     }

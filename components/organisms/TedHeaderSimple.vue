@@ -2,13 +2,9 @@
   <headroom :class="headerClass" @pin="pinHeader" @unpin="unpinHeader">
     <header class="navbar shadow bg-light">
       <section class="navbar-section">
-        <nuxt-link
-          :to="localePath('index')"
-          class="logo"
-          @click.native="$trackLink('header', 'logo-tediber')"
-        >
+        <nuxt-link :to="localePath('mattress')" class="logo">
           <img
-            src="https://res.cloudinary.com/dgodjz1pn/image/upload/site/icons/logo_tediber.svg"
+            src="https://res.cloudinary.com/dgodjz1pn/image/upload/site/icons/logo_ours.svg"
             :alt="$t('header.alt.logo-tediber')"
             class="ml-2"
           />
@@ -16,11 +12,7 @@
       </section>
 
       <section class="navbar-center">
-        <nuxt-link
-          :to="localePath('index')"
-          class="logo"
-          @click.native="$trackLink('header', 'logo-ours')"
-        >
+        <nuxt-link :to="localePath('mattress')" class="logo">
           <img
             src="https://res.cloudinary.com/dgodjz1pn/image/upload/site/icons/logo_ours.svg"
             :alt="$t('header.alt.logo-ours')"
@@ -29,24 +21,8 @@
         </nuxt-link>
       </section>
 
-      <section class="navbar-section">
-        <nuxt-link
-          :to="localePath('cart')"
-          class="btn-link cart-link"
-          :class="[{ badge: cartSize > 0 }, cartClass]"
-          :data-badge="cartSize"
-          no-prefetch
-          @click.native="$trackLink('header', 'cart')"
-        >
-          <img
-            src="https://res.cloudinary.com/dgodjz1pn/image/upload/site/icons/cart.svg"
-            :alt="$t('header.alt.cart')"
-          />
-        </nuxt-link>
-      </section>
+      <section class="navbar-section"> </section>
     </header>
-
-    <ted-browser-version-alert></ted-browser-version-alert>
   </headroom>
 </template>
 
@@ -56,43 +32,14 @@
   export default {
     components: { headroom },
 
-    i18n: {
-      messages: {
-        fr: require('~/locales/fr/TheHeader.json')
-      }
-    },
-
     data() {
       return {
-        headerClass: 'headroom--pinned',
-        cartClass: ''
+        headerClass: 'headroom--pinned'
       }
-    },
-
-    computed: {
-      /**
-       * Returns the size of the cart
-       *
-       * @return Number
-       */
-      cartSize: function () {
-        return this.$store.getters['cart/cartSize']
-      }
-    },
-
-    mounted() {
-      this.$nuxt.$on('CART_CLASS', (cartClass) => {
-        this.cartClass = ''
-        this.$nextTick(() => {
-          this.cartClass = cartClass
-        })
-      })
     },
 
     beforeDestroy() {
-      this.cartClass = ''
       this.headerClass = 'headroom--pinned'
-      this.$nuxt.$off('CART_CLASS')
     },
 
     methods: {

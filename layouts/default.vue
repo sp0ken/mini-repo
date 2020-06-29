@@ -6,8 +6,6 @@
       <div class="container">
         <nuxt />
       </div>
-
-      <lazy-the-footer-simple></lazy-the-footer-simple>
     </div>
   </div>
 </template>
