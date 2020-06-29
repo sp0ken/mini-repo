@@ -33,43 +33,6 @@
         </div>
       </div>
     </section>
-
-    <section class="product-story p-relative margin-top-simple">
-      <ted-story class="col-9 col-md-12 col-mx-auto column mt-10">
-        <template #title>{{ $t(`${packCodeFormated}.story.text.title`) }}</template>
-
-        <template #excerpt>
-          <span v-html="$t(`${packCodeFormated}.story.text.excerpt`)"></span>
-        </template>
-
-        <template #image>
-          <cld-image
-            secure="true"
-            public-id="products/mattress/content/story"
-            class="col-8 col-sm-12 col-mx-auto"
-            client-hints="true"
-            lazy
-            placeholder="lqip"
-            :alt="$t(`${packCodeFormated}.upsell.story.alt`)"
-          >
-            <cld-transformation
-              width="auto:120:300"
-              crop="scale"
-              quality="auto"
-              dpr="auto"
-              sizes="100vw"
-              fetchFormat="auto"
-            ></cld-transformation>
-          </cld-image>
-        </template>
-
-        <template #body>
-          <span v-html="$t(`${packCodeFormated}.story.text.body`)"></span>
-        </template>
-      </ted-story>
-
-      <div class="bottom-illu"></div>
-    </section>
   </main>
 </template>
 
